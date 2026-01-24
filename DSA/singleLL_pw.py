@@ -70,3 +70,4 @@ curr.next = curr.next.next # delete the 2nd index = 8
 printLL(head)
 
 print("hello sabuj")
+print("hello world")
