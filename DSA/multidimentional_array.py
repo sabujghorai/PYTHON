@@ -1,23 +1,23 @@
-#zero dimentional array
-from numpy import *
-a = array(10)
-print(a)
-print("\n")
+import numpy as np
+
+# 0-D array
+a = np.array(10)
+print("0-D array:", a)
+print()
 
 # 1-D array
-from numpy import *
-a = array([1,2,3,4,5,6,7,8,9,10])
-print(a)
-print("\n")
+a = np.array([1,2,3,4,5,6,7,8,9,10])
+print("1-D array:", a)
+print()
 
-# 2-D array
-from numpy import *
-a = array([[1,2],[3,4],[5,6]]) # 3X3 2-D array
-print(a)
-print("\n")
+# 2-D array (3x2)
+a = np.array([[1,2],[3,4],[5,6]])
+print("2-D array:\n", a)
+print()
 
-# 3-D array
-from numpy import *
-a = array([[[1,2],[3,4]],[[5,6],[12,13]]]) # 2X2 3-D array
-print(a)
-print("\n")
+# 3-D array (2x2x2)
+a = np.array([[[1,2],[3,4]],[[5,6],[12,13]]])
+print("3-D array:\n", a)
+print()
+
+print("hello world")
