@@ -5,8 +5,24 @@
 # else:
 #     print("The number is odd")
 
-# Take a list of numbers and return their sum
-number = [1,3,4,2,5,7,9]
 
-total = sum(number)
-print("sum is = ",total)
+# # Take a list of numbers and return their sum
+# number = [1,3,4,2,5,7,9]
+# total = sum(number)
+# print("sum is = ",total)
+
+
+# # Given a list, find the largest number.
+# list = [20,30,40,50,77,11,85,75,102]
+# find = max(list)
+# print("The maximum number is :",find)
+
+
+# Reverse a String
+string = "Hello world"
+
+char_text = ""
+for char in string:
+    char_text = char+char_text
+
+print("The reversed string is :- ",char_text)
