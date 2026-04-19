@@ -57,7 +57,6 @@ obj.insertAtTheEnd(30)
 obj.insertAtTheEnd(40)
 obj.printLL()
 
-
 # Insert at the begeining
 class Node:
     def __init__(self, data):
