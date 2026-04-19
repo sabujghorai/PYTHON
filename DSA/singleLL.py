@@ -133,7 +133,6 @@ class SingleLL:
             print(t1.data)
             t1 = t1.next
 
-
 obj = SingleLL()
 obj.insertAtTheEnd(10)
 obj.insertAtTheEnd(20)
