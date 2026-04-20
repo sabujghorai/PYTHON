@@ -19,7 +19,6 @@ for i in a:
     print(i,end=" ")
 print("\n")
 
-
 # ZEROS function
 from numpy import *
 a = zeros(10) # start,stop,jump
