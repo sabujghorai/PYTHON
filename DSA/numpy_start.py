@@ -12,7 +12,6 @@ for i in a:
     print(i,end=" ")
 print("\n")
 
-
 # ARANGE function
 from numpy import *
 a = arange(10,20,2) # start,stop,jump
