@@ -18,11 +18,22 @@
 # print("The maximum number is :",find)
 
 
-# Reverse a String
-string = "Hello world"
+# # Reverse a String
+# string = "Hello world"
 
-char_text = ""
-for char in string:
-    char_text = char+char_text
+# char_text = ""
+# for char in string:
+#     char_text = char+char_text
 
-print("The reversed string is :- ",char_text)
+# print("The reversed string is :- ",char_text)
+
+# string1 = "good morning"
+# print("the reversed string is :",string1[::-1])
+
+value = (input("Enter a number or string :"))
+for i in range(value):
+    for ch in value:
+        if value == value[::-1]:
+            print("Palindrome")
+        else:
+            print("Not palindrome")
