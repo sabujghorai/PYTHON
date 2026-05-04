@@ -18,22 +18,6 @@ This repository is a collection of:
 
 ## 📁 Folder Structure
 
-```
-PYTHON/
-│── Basic Python/
-│   ├── variables.py
-│   ├── loops.py
-│   ├── functions.py
-│   └── ...
-│
-│── DSA/
-│   ├── arrays.py
-│   ├── linked_list.py
-│   └── ...
-│
-│── .venv/
-```
-
 ---
 
 ## 🛠️ Technologies Used
