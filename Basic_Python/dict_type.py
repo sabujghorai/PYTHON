@@ -19,7 +19,10 @@ print(student.get("subject")) # returns the key according to the value...
 student.update({"eng" : 87}) # use to update inside the dict.. and the new dict should be in curly brckets
 print(student )
 
-matall = {
+
+# Another Dictionary
+
+student2 = {
     "Name" : "Gouranga Mondal",
     "Subject" : {
         "physics" : 95,
@@ -29,5 +32,5 @@ matall = {
     "Roll No " : "BWU/BTS/25/298",  
     "Email Id" : "mondalgouranga18@gmail.com"
 }
-print(matall["Name"])
-print(matall["Subject"])
+print(student2["Name"])
+print(student2["Subject"])
