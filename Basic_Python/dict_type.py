@@ -1,13 +1,13 @@
-student = {
-    "name" : "sabuj ghorai",
-    "subject" : {
-    "phy" : 87,
-    "chem" : 89,
-    "math" : 87
-  }
-}
-print(student.values())
-print(len(student)) # means total number of key value pairs...
+# student = {
+#     "name" : "sabuj ghorai",
+#     "subject" : {
+#     "phy" : 87,
+#     "chem" : 89,
+#     "math" : 87
+#   }
+# }
+# print(student.values())
+# print(len(student)) # means total number of key value pairs...
 
 # # we can use typecasting inside the dictionary also 
 # print(list(student.keys()))
@@ -18,3 +18,16 @@ print(len(student)) # means total number of key value pairs...
 
 # student.update({"eng" : 87}) # use to update inside the dict.. and the new dict should be in curly brckets
 # print(student )
+
+
+matall = {
+    "Name" : "Gouranga Mondal",
+    "Subject" : {
+        "physics" : 95,
+        "chemistry" : 81,
+        "Math" : 97,
+    },
+    "Roll No " : "BWU/BTS/25/298",  
+    "Email Id" : "mondalgouranga18@gmail.com"
+}
+print(matall)
