@@ -19,7 +19,6 @@ print(student.get("subject")) # returns the key according to the value...
 student.update({"eng" : 87}) # use to update inside the dict.. and the new dict should be in curly brckets
 print(student )
 
-
 # Another Dictionary
 student2 = {
     "Name" : "Gouranga Mondal",
