@@ -19,7 +19,6 @@
 # student.update({"eng" : 87}) # use to update inside the dict.. and the new dict should be in curly brckets
 # print(student )
 
-
 matall = {
     "Name" : "Gouranga Mondal",
     "Subject" : {
