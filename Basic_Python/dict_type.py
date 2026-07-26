@@ -30,4 +30,5 @@ matall = {
     "Roll No " : "BWU/BTS/25/298",  
     "Email Id" : "mondalgouranga18@gmail.com"
 }
-print(matall)
+print(matall["Name"])
+print(matall["Subject"])
