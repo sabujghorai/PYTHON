@@ -21,7 +21,6 @@ print(student )
 
 
 # Another Dictionary
-
 student2 = {
     "Name" : "Gouranga Mondal",
     "Subject" : {
