@@ -56,16 +56,16 @@
 # Student1.display()
 
 
-class Car:
-    def __init__(self,brand,model,price):
-        self.brand = brand
-        self.model = model
-        self.price = price
+# class Car:
+#     def __init__(self,brand,model,price):
+#         self.brand = brand
+#         self.model = model
+#         self.price = price
 
-    def display(self):
-        print(f"Brand :{self.brand}")
-        print(f"Model :{self.model}")
-        print(f"Price :{self.price}")
+#     def display(self):
+#         print(f"Brand :{self.brand}")
+#         print(f"Model :{self.model}")
+#         print(f"Price :{self.price}")
 
-car1 = Car("BMW","M4","1.9cr")
-car1.display()
+# car1 = Car("BMW","M4","1.9cr")
+# car1.display()
