@@ -327,9 +327,7 @@ class Student:
 
 
 s = Student("Krishna", [95, 97, 99])
-
 print(s.name, s.marks)
-
 s.average()
 
 
