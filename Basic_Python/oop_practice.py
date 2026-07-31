@@ -1,4 +1,4 @@
-# # Define a Circle class to create a circle  without radiu using the constructor
+# # Define a Circle class to create a circle  without radius using the constructor
 # # Define Area() method and Perimeter() method 
 
 # class Circle:
