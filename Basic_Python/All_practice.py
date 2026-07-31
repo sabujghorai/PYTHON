@@ -23,7 +23,6 @@ else:
     else:
         print("not prime")
 
-
 # Find the factorial of a number.
 
 def factorial(n):
