@@ -273,9 +273,7 @@ my_car = Car("Mercedes", "Benz")
 
 print(my_car.brand)
 print(my_car.model)
-
 my_new_car = Car("TATA", "Safari")
-
 print(my_new_car.brand)
 print(my_new_car.model)
 
