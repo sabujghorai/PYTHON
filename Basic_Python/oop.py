@@ -325,7 +325,6 @@ class Student:
         total = sum(self.marks)
         print("Hi", self.name, "your average score is", total / len(self.marks))
 
-
 s = Student("Krishna", [95, 97, 99])
 print(s.name, s.marks)
 s.average()
