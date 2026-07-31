@@ -37,6 +37,5 @@ class Engineer(Employee):
         self.age = age
         super().__init__("Engineer", "IT", 75000)
 
-
 engg1 = Engineer("Elon Musk", 45)
 engg1.showDetail()
