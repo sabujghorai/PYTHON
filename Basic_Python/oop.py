@@ -343,12 +343,10 @@ class Student:
     def hello():
         print("hello")
 
-
 s = Student("karan")
-
 s.hello()
-
 print(s.name)
+
 
 
 # Abstraction
