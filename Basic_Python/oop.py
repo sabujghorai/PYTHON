@@ -57,7 +57,6 @@ class Car:
     def stop():
         print("car stopped...")
 
-
 class ToyotaCar(Car):
     def __init__(self, name):
         self.name = name
@@ -68,7 +67,6 @@ c = ToyotaCar("toyota corolla")
 print(c.name)
 print(c.colour)
 c.start()
-
 
 # Electric Car
 class Car:
