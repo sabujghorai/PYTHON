@@ -306,11 +306,8 @@ class Rectangle:
     def area(self):
         return self.length * self.width
 
-
 r = Rectangle()
-
 r.set_values(5, 3)
-
 print("Area:", r.area())
 
 
