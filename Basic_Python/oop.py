@@ -203,7 +203,6 @@ b = int(input("Enter marks of chemistry: "))
 c = int(input("Enter marks of maths: "))
 
 s1 = Student(a, b, c)
-
 print(s1.percentage)
 
 
