@@ -27,7 +27,6 @@ a = Account("123456", "pass@1234")
 
 print(a.acc_num)
 a.reset_pass()
-
 # print(a.__acc_pass)  # ERROR
 
 
