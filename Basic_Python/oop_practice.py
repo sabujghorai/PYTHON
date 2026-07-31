@@ -39,3 +39,18 @@
 
 # engg1 = Engineer("Elon Musk", 45)
 # engg1.showDetail()
+
+class Student:
+    def __init__(self,name,age,branch):
+        self.name = name
+        self.age = age
+        self.branch = branch
+
+    def display(self):
+        print(f"Name : {self.name}")
+        print(f"age : {self.age}")
+        print(f"Branch : {self.branch}")
+
+
+Student1 = Student("Sabuj",21,"CSE")
+Student1.display()
