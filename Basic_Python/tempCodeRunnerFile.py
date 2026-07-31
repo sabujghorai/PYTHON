@@ -1,4 +1,4 @@
-# we can use typecasting inside the dictionary also 
+# # we can use typecasting inside the dictionary also 
 # print(list(student.keys()))
 
 # print(student.items()) # returns all (key , values ) pairs as tuple.. in parenthesis
