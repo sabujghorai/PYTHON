@@ -291,7 +291,6 @@ class Student:
         print("Name:", self.name)
         print("Age:", self.age)
 
-
 s1 = Student("Sabuj", 21)
 s1.display()
 
