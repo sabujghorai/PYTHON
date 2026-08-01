@@ -17,7 +17,6 @@ while j>=1:
   print(j)
   j-=1 # time complexity will be n
 
-
 n = 5
 m = 10
 print(m+n)
