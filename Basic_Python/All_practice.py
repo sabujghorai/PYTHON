@@ -35,5 +35,3 @@ fact = int(input("Enter the number for factorial :"))
 print("Factorial is : " , factorial(fact))
 
 #  Make a simple calculator 
-
-a = int(input("Enter the choice :"))
