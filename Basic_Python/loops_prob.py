@@ -54,7 +54,6 @@ while i<=n:
   print(i+1)
   i+=1
 
-
 # WAP to find the sun of first n natural numbers using while loop
 n = int(input("Enter a number:"))
 sum = 0
