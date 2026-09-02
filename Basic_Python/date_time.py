@@ -15,3 +15,8 @@ print(today.day) # prints the present day
 # printing the todays date and time
 dt = datetime(2006, 9, 6, 16, 50, 40)  # datetime(year, month, day, hour, minute, second)
 print(dt)
+
+
+# Printing the today's actual current date and time 
+now = datetime.now()
+print(now)
