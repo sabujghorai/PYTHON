@@ -33,31 +33,41 @@
 
 
 
-"""  These are worth remembering:
+# """  These are worth remembering:
 
-Code	Meaning	Example
+# Code	Meaning	Example
 
-%Y	Full year	2026
-%y	Short year	26
-%m	Month number	09
-%d	Day	03
-%H	Hour, 24-hour	14
-%I	Hour, 12-hour	02
-%M	Minute	30
-%S	Second	45
-%p	AM/PM	PM
-%A	Full weekday	Thursday
-%a	Short weekday	Thu
-%B	Full month	September
-%b	Short month	Sep  """
+# %Y	Full year	2026
+# %y	Short year	26
+# %m	Month number	09
+# %d	Day	03
+# %H	Hour, 24-hour	14
+# %I	Hour, 12-hour	02
+# %M	Minute	30
+# %S	Second	45
+# %p	AM/PM	PM
+# %A	Full weekday	Thursday
+# %a	Short weekday	Thu
+# %B	Full month	September
+# %b	Short month	Sep  """
 
 
+
+# from datetime import datetime
+
+# now = datetime.now()
+
+# print(now.strftime("%d/%m/%Y"))
+# print(now.strftime("%H:%M:%S"))
+# print(now.strftime("%A")) # %A for day of that date
+# print(now.strftime("%B")) # %B for month of that date
+
+
+
+
+# Creating a nice date/time display
 
 from datetime import datetime
-
 now = datetime.now()
-
-print(now.strftime("%d/%m/%Y"))
-print(now.strftime("%H:%M:%S"))
-print(now.strftime("%A")) # %A for day of that date
-print(now.strftime("%B")) # %B for month of that date
+formatted = now.strftime("%A, %d %B %Y | %I:%M:%S %p")
+print(formatted)
