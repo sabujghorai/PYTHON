@@ -61,6 +61,8 @@ for i in range(n+1):
   sum = sum+i
 print("the sum is:",sum)
 
+print("hello world")
+
 # write a program to find the factorial of first n numbers . using for loop
 n = int(input("Enter a number:"))
 fact = 1
