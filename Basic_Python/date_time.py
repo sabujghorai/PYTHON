@@ -30,3 +30,23 @@ print(formatted)
 print(day)
 print(month)
 print(year)
+
+
+
+"""  These are worth remembering:
+
+Code	Meaning	Example
+
+%Y	Full year	2026
+%y	Short year	26
+%m	Month number	09
+%d	Day	03
+%H	Hour, 24-hour	14
+%I	Hour, 12-hour	02
+%M	Minute	30
+%S	Second	45
+%p	AM/PM	PM
+%A	Full weekday	Thursday
+%a	Short weekday	Thu
+%B	Full month	September
+%b	Short month	Sep  """
