@@ -20,3 +20,5 @@ print(dt)
 # Printing the today's actual current date and time 
 now = datetime.now()
 print(now)
+formatted = now.strftime("%d-%m-%y") # The strftime is changes the format i want
+print(formatted)
