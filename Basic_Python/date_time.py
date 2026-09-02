@@ -4,5 +4,8 @@ print(d)
 
 
 # Getting today's date
-today = date.today("hello")
+today = date.today()
 print(today)
+print(today.year) # Prints the present year
+print(today.month) # prints the present month
+print(today.day) # prints the present day
