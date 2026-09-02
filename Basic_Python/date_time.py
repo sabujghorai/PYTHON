@@ -20,5 +20,13 @@ print(dt)
 # Printing the today's actual current date and time 
 now = datetime.now()
 print(now)
+
 formatted = now.strftime("%d-%m-%y") # The strftime is changes the format i want
+day = now.strftime("%d")  # The strftime %d shows the day 
+month = now.strftime("%m")  # The strftime %m shows the month 
+year = now.strftime("%y")  # The strftime %y shows the year
+
 print(formatted)
+print(day)
+print(month)
+print(year)
