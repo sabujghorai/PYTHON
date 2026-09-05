@@ -63,7 +63,6 @@ print(now.strftime("%A")) # %A for day of that date
 print(now.strftime("%B")) # %B for month of that date
 
 
-
 # Creating a nice date/time display
 
 from datetime import datetime
