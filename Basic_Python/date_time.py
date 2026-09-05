@@ -34,7 +34,6 @@ print(year)
 
 
 # """  These are worth remembering:
-
 # Code	Meaning	Example
 
 # %Y	Full year	2026
