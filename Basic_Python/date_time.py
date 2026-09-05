@@ -12,6 +12,7 @@ print(today.month) # prints the present month
 print(today.day) # prints the present day
 
 
+
  # printing the todays date and time
 dt = datetime(2006, 9, 6, 16, 50, 40)  # datetime(year, month, day, hour, minute, second)
 print(dt)
@@ -48,7 +49,7 @@ print(year)
 # %A	Full weekday	Thursday
 # %a	Short weekday	Thu
 # %B	Full month	September
-# %b	Short month	Sep  """
+# %b	Short month	Sep """
 
 
 
